@@ -1,2 +1,2 @@
 streamlit
-streamlit-searchbar
+streamlit-searchbar==0.2.0
