@@ -1,9 +1,10 @@
 import streamlit as st
+import streamlit_searchbar as sr
 
 
 def main():
     st.write("## Example")
-    value = streamlit_searchbar(label="Search Customer...")
+    value = sr.streamlit_searchbar(label="Search Customer...")
     st.write(value)
     st.button("test")
 
