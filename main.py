@@ -11,9 +11,9 @@ def main():
     with st.expander("code"):
         st.code(body="\
     import streamlit as st \r\n \
-    import streamlit_searchbar as sr \r\n \r\n \
-    value = sr.streamlit_searchbar(label='Search Customer...') \r\n \
-    st.write(value) \
+import streamlit_searchbar as sr \r\n \r\n \
+value = sr.streamlit_searchbar(label='Search Customer...') \r\n \
+st.write(value) \
     ",language="python")
 
 
