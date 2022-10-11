@@ -10,7 +10,7 @@ def main():
         st.info(value + " has been typed")
     with st.expander("code"):
         st.code(body="\
-import streamlit as st \r\n \
+import streamlit as st \r\n\
 import streamlit_searchbar as sr \r\n \r\n \
 value = sr.streamlit_searchbar(label='Search Customer...') \r\n \
 st.write(value) \
