@@ -13,7 +13,7 @@ def main():
         """
     st.markdown(hide_streamlit_style, unsafe_allow_html=True)
     value = sr.streamlit_searchbar(label="Search Customer...")
-    if value is not None:st.write(value)
+    if value is not None and value !="":st.write(value)
     if st.button("Check"):
         st.info(value + " has been typed")
     with st.expander("code"):
