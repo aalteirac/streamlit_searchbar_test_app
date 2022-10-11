@@ -8,6 +8,12 @@ def main():
     st.write(value)
     if st.button("Check"):
         st.info(value + " has been typed")
+    with st.expander("code"):
+        st.code(body="import streamlit as st \
+                      import streamlit_searchbar as sr\
+                      value = sr.streamlit_searchbar(label='Search Customer...') \
+                      st.write(value) \
+    ",language="python")
 
 
 
