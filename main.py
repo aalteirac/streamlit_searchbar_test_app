@@ -7,7 +7,7 @@ def main():
     value = sr.streamlit_searchbar(label="Search Customer...")
     st.write(value)
     if st.button("Check"):
-        st.info(value + "has been typed")
+        st.info(value + " has been typed")
 
 
 
