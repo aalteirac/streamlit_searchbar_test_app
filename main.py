@@ -6,7 +6,7 @@ def main():
     st.set_page_config(layout="wide")
     hide_streamlit_style = """
         <style>
-            #root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}
+            #root > div:nth-child(1) > div > div > div > div > section > div { padding: 0rem 1rem;}
             header[data-testid="stHeader"]{display:none}
         </style>
 
