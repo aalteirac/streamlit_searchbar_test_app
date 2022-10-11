@@ -7,7 +7,7 @@ def main():
     hide_streamlit_style = """
         <style>
             #root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}
-            header[data-testid="stHeader"]{position:unset}
+            header[data-testid="stHeader"]{display:none}
         </style>
 
         """
